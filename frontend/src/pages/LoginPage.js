@@ -7,6 +7,7 @@ function LoginPage() {
     const [password, setPassword] = useState('');
     const [rememberMe, setRememberMe] = useState(false);
     const [error, setError] = useState('');
+    const navigate = useNavigate();
 
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -15,6 +16,8 @@ function LoginPage() {
         if (email === 'admin@gmail.com' && password === 'pass') {
             setError('');
             alert('Login successful!');
+            // Redirect to User Input page
+            navigate('/user-input');
         } else {
             setError('Invalid email or password');
             alert('Invalid email or password');
