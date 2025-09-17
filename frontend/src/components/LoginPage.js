@@ -11,7 +11,7 @@ function LoginPage() {
         e.preventDefault();
         alert(`Email: ${email}, Password: ${password}`);
         // Dummy authentication logic
-        if (email === 'email' && password === 'pass') {
+        if (email === 'admin@gmail.com' && password === 'pass') {
             setError('');
             alert('Login successful!');
         } else {
