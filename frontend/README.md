@@ -3,6 +3,15 @@
 The purpose of this project is to create a web application that help learner improve their English usage by inputting the required information. Our application will process that input with the internal existing materials and generate the customed / personalised Learning Material that can be adjust along their learning jorney.
 ## Table of content
 ### Project structure
+frontend
+- src
+    - styles
+    - pages
+    - components
+backend
+- models
+- data
+- preprocessing_data
 ### Data processing
 #### Type of data
 1. ``Student's profile``: With all the personal confidential data was getting rid of. Only the anonymous data which is helpful for the project is remained.
