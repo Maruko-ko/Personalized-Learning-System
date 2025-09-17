@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../pages/LoginPage.css';
+import '../styles/LoginPage.css';
 
 function LoginPage() {
     const [email, setEmail] = useState('');
@@ -16,6 +16,7 @@ function LoginPage() {
             alert('Login successful!');
         } else {
             setError('Invalid email or password');
+            alert('Invalid email or password');
         }
     }
     return (
