@@ -4,7 +4,7 @@ import '../styles/Footer.css';
 function Footer() {
     return (
         <div className="footer">
-            <p>&copy; 2024 Personalised Learning System. All rights reserved.</p>
+            <p>&copy; 2027 Personalised Learning System. All rights reserved.</p>
             <p>Owned by Laurus Education</p>
         </div>
     );
