@@ -1,0 +1,50 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+
+# =========================
+# Environment & Config
+# =========================
+.env
+*.env
+.env.*
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+log/
+
+# =========================
+# Data folders
+# =========================
+data/
+data/raw/
+data/processed/
+data/embeddings/
+data/text
+
+# =========================
+# IDE / Editor files
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# OS generated files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Jupyter Notebook checkpoints
+# =========================
+.ipynb_checkpoints/
